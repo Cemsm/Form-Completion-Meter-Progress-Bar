@@ -1,0 +1,34 @@
+{
+  "name": "Form Completion Meter (Progress Bar)",
+  "version": "0.1.0",
+  "description": "Customizable Oracle APEX region plugin for tracking form completion with progress bars, rings and segments, plus navigation to missing fields.",
+  "keywords": ["form", "completion", "progress", "progress-bar", "region", "oracle-apex"],
+  "homepage": "https://github.com/Cemsm/Form-Completion-Meter-Progress-Bar",
+  "bugs": {
+    "url": "https://github.com/Cemsm/Form-Completion-Meter-Progress-Bar/issues",
+    "email": "cemsm@proton.me"
+  },
+  "license": "MIT",
+  "commercial": "No",
+  "author": {
+    "name": "Mohammad Saleh Moeinadini (Cemsm)",
+    "email": "cemsm@proton.me",
+    "url": "https://github.com/Cemsm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cemsm/Form-Completion-Meter-Progress-Bar.git"
+  },
+  "oracle": {
+    "versions": ["23.26.1.0.0"],
+    "apex": {
+      "versions": ["26.1.0"],
+      "plugin": {
+        "internalName": "COM_CEMSM_FORM_COMPLETION_METER",
+        "type": "region",
+        "demo": "https://cemsm.github.io/Form-Completion-Meter-Progress-Bar/",
+        "previewImage": "https://raw.githubusercontent.com/Cemsm/Form-Completion-Meter-Progress-Bar/main/screenshots/preview.png"
+      }
+    }
+  }
+}

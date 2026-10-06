@@ -46,7 +46,6 @@ The renderer loads `form-completion-meter.js` and `form-completion-meter.css` fr
 | Jump Button Text | `jump_text` | Default: `Next missing field` |
 | Icon | `icon` | Icon attribute; default `fa-arrow-down` |
 
-Configure **Icon** as a component attribute of type **Icon**, with static ID `icon`. The renderer reads it with `l_region.attributes.get_varchar2('icon')` and escapes the value before adding it to the button's class attribute.
 
 ## Compatibility
 
@@ -62,13 +61,6 @@ Open `index.html` directly in a browser. No build process, external libraries, o
 
 The demo is a standalone HTML/CSS/JavaScript recreation of the visible behavior. It does not execute the PL/SQL renderer or the APEX runtime. Its sample form stays in the browser and is not submitted or saved. Filling an email field counts toward completion even if its format is invalid.
 
-### Publish with GitHub Pages
-
-1. Put `index.html` in the repository root on the `main` branch.
-2. Open the repository's **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select **main** and **/ (root)**, then save.
-5. After deployment, open <https://cemsm.github.io/Form-Completion-Meter-Progress-Bar/>.
 
 ## Repository files
 
@@ -81,7 +73,7 @@ The demo is a standalone HTML/CSS/JavaScript recreation of the visible behavior.
 | Plug-in SQL export | Installable APEX plug-in |
 | `LICENSE` | MIT license |
 
-Keep the screenshot at `screenshots/preview.png`. The metadata preview URL assumes the default branch is `main`.
+
 
 ## Support
 
